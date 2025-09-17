@@ -19,7 +19,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/DevopsYaml/PythonApp/tree/main'
+                    url: 'https://github.com/DevopsYaml/PythonApp/'
             }
         }
 
