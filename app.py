@@ -1,6 +1,6 @@
 # app.py
 def main():
-    print("Hello from Jenkins + GitHub + Python!")
+    print("Hello I am triggered from jenkins and fetched from github repo")
 
 if __name__ == "__main__":
     main()
